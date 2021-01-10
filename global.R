@@ -14,7 +14,7 @@ library(ggplot2)
 library(RColorBrewer)
 library(forcats)
 
-data_folder <- "C:/Users/aaron.beach/OneDrive - nswis.com.au/GitHub/Hammer Conversion/Processed data"
+data_folder <- "/Users/aaron/Documents/GitHub/Hammer-Database/Processed data1"
 
 filenames = list.files(data_folder, pattern = "*.csv", full.names = T)
 dataname = basename(filenames)
